@@ -14,20 +14,20 @@
 
 </head>
 
-<body class="min-h-screen bg-emerald-100 bg-cover bg-center m-0 p-0 box-border no-underline">
+<body class="min-h-screen bg-slate-200 bg-cover bg-center m-0 p-0 box-border no-underline">
     <div class="font-poppins">
         <header class=" bg-black text-white flex justify-between items-center py-5 px-10 z-10 mb-20">
             <a href="#" class="logo text-3xl font-semibold">
-                <img src="images/logo2.png" alt="" class="h-10">
+                <img src="images/logo2.png" alt="" class="h-[20px] sm:h-10">
             </a>
             <nav class="navbar">
-                <a href="#" class="nav-link text-lg font-medium mx-4 relative">
+                <a href="#" class="nav-link text-[10px] sm:text-lg font-medium mx-4 relative">
                     Home
                 </a>
-                <a href="#" class="nav-link text-lg font-medium mx-4 relative">
+                <a href="#" class="nav-link text-[10px] sm:text-lg font-medium mx-4 relative">
                     About Us
                 </a>
-                <a href="#" class="nav-link text-lg font-medium mx-4 relative">
+                <a href="#" class="nav-link text-[10px] sm:text-lg font-medium mx-4 relative">
                     Contact Us
                 </a>
                 <!-- Repeat similar code for other navigation links -->
@@ -42,17 +42,17 @@
                 </div> -->
     
                 <div id="blog-container" class="w-full flex justify-center items-center mt-5 mr-0 flex-wrap">
-                    <div id="blog-box" class="bg-[url('images/blog1.jpg')] w-full bg-white border-2 border-white m-5 rounded-[20px] h-[550px] bg-cover bg-no-repeat">
+                    <div id="blog-box" class="bg-[url('images/blog1.jpg')] w-full bg-gray-500 border-2 border-white m-5 rounded-[20px] h-[350px] sm:h-[550px]  bg-cover bg-no-repeat">
     
                         <!-- <div id="blog-img" class="w-full h-[250px]">
     
                             <img src="images/blog2.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-tr-[20px]">
                         </div> -->
     
-                        <div id="blog-text" class="h-full p-[30px] flex flex-col">
-                            <span class="text-white font-[0.9rem] mt-[400px]">17 July 2023</span>
-                            <a href="#" id="blog-title" class="text-[1.3rem] text-white font-medium hover:text-red-500 transition-all duration-100 ease-linear">Thank You to America’s Librarians for Protecting Our Freedom to Read</a>
-                            <p id="blog-text" class="text-white text-[0.9rem] overflow-hidden text-ellipsis mt-0 mr-0">I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
+                        <div id="blog-text" class=" h-full p-[30px] flex flex-col">
+                            <span class=" text-white font-[0.9rem] mt-[200px] sm:mt-[400px] ">17 July 2023</span>
+                            <a href="#" id="blog-title" class="text-[15px] sm:text-[1.3rem] text-white font-medium hover:text-red-500 transition-all duration-100 ease-linear">Thank You to America’s Librarians for Protecting Our Freedom to Read</a>
+                            <p id="blog-text" class="invisible sm:visible text-white text-[0.9rem] overflow-hidden text-ellipsis mt-0 mr-0">I wrote a letter thanking librarians across the country for everything they’re doing to protect our freedom to read.</p>
                             <!-- <a href="#" id="blog-text" class="mt-[20px] text-red-500 hover:text-red-500 transition-all duration-100 ease-linear">Read More</a> -->
                         </div>
                     </div>
@@ -122,54 +122,56 @@
 
             <div id="blog-article" class="w-full flex justify-center items-center flex-col p-10">
                 <div id="blog-heading" class="w-full flex justify-center items-center flex-col">
-                    <h3 class="w-full text-[2.4rem] text-black font-bold border-b-2 border-b-slate-300 text-left">Blog</h3>
+                    <h3 class="w-full text-[2.4rem] text-black font-bold border-b-2 border-b-slate-300 text-left">Recent Posts</h3>
                 </div>
     
-                <div id="blog-container" class="flex w-full justify-center items-center mt-5 mr-0 flex-wrap flex-row">
-                    <div id="blog-box" class="flex w-full  bg-white border-2 border-white m-5 rounded-[20px] h-[300px] flex-row">
+                <div id="blog-container" class="flex w-full justify-center items-center mt-5 mr-0 flex-wrap flex-col sm:flex-row">
+                    <div id="blog-box" class="flex w-full  bg-white border-2 border-white m-5 rounded-[20px] h-[330px] sm:h-[300px] flex-col sm:flex-row">
     
-                        <div id="blog-img" class="w-1/3 h-full">
+                        <div id="blog-img" class="w-full sm:w-1/3 h-[250px] sm:h-full">
     
-                            <img src="images/blog5.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-bl-[20px]">
+                            <img src="images/blog5.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-tr-[20px] sm:rounded-bl-[20px]">
                         </div>
     
-                        <div id="blog-text" class="p-[30px] flex flex-col w-2/3">
-                            <a href="#" id="blog-title" class="text-[1.3rem] text-black font-medium hover:text-red-500 transition-all duration-100 ease-linear">Microsoft Just Showed us the Future of ChatGPT with LongNet!</a>
+                        <div id="blog-text" class="p-[30px] flex flex-col w-full sm:w-2/3">
+                            <a href="#" id="blog-title" class="text-[15px] sm:text-[1.3rem] text-black font-medium hover:text-red-500 transition-all duration-100 ease-linear">Microsoft Just Showed us the Future of ChatGPT with LongNet!</a>
                             <span class="text-red-500 font-[0.9rem]">28 July 2023</span>
-                            <p id="blog-text" class="text-gray-700 text-[0.9rem] overflow-hidden text-ellipsis mt-[20px] mr-0">Let’s talk about Billions</p>
-                            <!-- <a href="#" id="blog-text" class="mt-[20px] text-red-500 hover:text-red-500 transition-all duration-100 ease-linear">Read More</a> -->
-                        </div>
-                    </div>
-    
-                    <div id="blog-box" class="flex w-full  bg-white border-2 border-white m-5 rounded-[20px] h-[300px] flex-row">
-    
-                        <div id="blog-img" class="w-1/3 h-full">
-    
-                            <img src="images/blog6.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-bl-[20px]">
-                        </div>
-    
-                        <div id="blog-text" class="p-[30px] flex flex-col w-2/3" >
-                            <a href="#" id="blog-title" class="text-[1.3rem] text-black font-medium hover:text-red-500 transition-all duration-100 ease-linear">Thanks, Elon, for rebranding Twitter to X</a>
-                            <span class="text-red-500 font-[0.9rem]">27 July 2023</span>
-                            <p id="blog-text" class="text-gray-700 text-[0.9rem] overflow-hidden text-ellipsis mt-[20px] mr-0">It’s been a while that Twitter rots in public square town, sabotaged by its owner himself. Elon Musk’s latest great idea was to throw the “Twitter” brand away and rebrand the service as X. Yes, the letter X.</p>
+                            <p id="blog-text" class="invisible sm:visible text-gray-700 text-[0.9rem] overflow-hidden text-ellipsis mt-[20px] mr-0">Let’s talk about Billions</p>
                             <!-- <a href="#" id="blog-text" class="mt-[20px] text-red-500 hover:text-red-500 transition-all duration-100 ease-linear">Read More</a> -->
                         </div>
                     </div>
 
-                    <div id="blog-box" class="flex w-full  bg-white border-2 border-white m-5 rounded-[20px] h-[300px] flex-row">
+                    <div id="blog-box" class="flex w-full  bg-white border-2 border-white m-5 rounded-[20px] h-[330px] sm:h-[300px] flex-col sm:flex-row">
     
-                        <div id="blog-img" class="w-1/3 h-full">
+                        <div id="blog-img" class="w-full sm:w-1/3 h-[250px] sm:h-full">
     
-                            <img src="images/blog7.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-bl-[20px]">
+                            <img src="images/blog6.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-tr-[20px] sm:rounded-bl-[20px]">
                         </div>
     
-                        <div id="blog-text" class="p-[30px] flex flex-col w-2/3" >
-                            <a href="#" id="blog-title" class="text-[1.3rem] text-black font-medium hover:text-red-500 transition-all duration-100 ease-linear">Next week, OpenAI Will Change Software Forever</a>
-                            <span class="text-red-500 font-[0.9rem]">26 July 2023</span>
-                            <p id="blog-text" class="text-gray-700 text-[0.9rem] overflow-hidden text-ellipsis mt-[20px] mr-0">Welcome to the era of on-demand utility software</p>
+                        <div id="blog-text" class="p-[30px] flex flex-col w-full sm:w-2/3">
+                            <a href="#" id="blog-title" class="text-[15px] sm:text-[1.3rem] text-black font-medium hover:text-red-500 transition-all duration-100 ease-linear">Thanks, Elon, for rebranding Twitter to X</a>
+                            <span class="text-red-500 font-[0.9rem]">27 July 2023</span>
+                            <p id="blog-text" class="invisible sm:visible text-gray-700 text-[0.9rem] overflow-hidden text-ellipsis mt-[20px] mr-0">It’s been a while that Twitter rots in public square town, sabotaged by its owner himself. Elon Musk’s latest great idea was to throw the “Twitter” brand away and rebrand the service as X. Yes, the letter X.</p>
                             <!-- <a href="#" id="blog-text" class="mt-[20px] text-red-500 hover:text-red-500 transition-all duration-100 ease-linear">Read More</a> -->
                         </div>
                     </div>
+
+                    <div id="blog-box" class="flex w-full  bg-white border-2 border-white m-5 rounded-[20px] h-[330px] sm:h-[300px] flex-col sm:flex-row">
+    
+                        <div id="blog-img" class="w-full sm:w-1/3 h-[250px] sm:h-full">
+    
+                            <img src="images/blog7.jpg" alt="blog" class="w-full h-full object-cover object-center rounded-tl-[20px] rounded-tr-[20px] sm:rounded-bl-[20px]">
+                        </div>
+    
+                        <div id="blog-text" class="p-[30px] flex flex-col w-full sm:w-2/3">
+                            <a href="#" id="blog-title" class="text-[15px] sm:text-[1.3rem] text-black font-medium hover:text-red-500 transition-all duration-100 ease-linear">Next week, OpenAI Will Change Software Forever</a>
+                            <span class="text-red-500 font-[0.9rem]">28 July 2023</span>
+                            <p id="blog-text" class="invisible sm:visible text-gray-700 text-[0.9rem] overflow-hidden text-ellipsis mt-[20px] mr-0">Welcome to the era of on-demand utility software</p>
+                            <!-- <a href="#" id="blog-text" class="mt-[20px] text-red-500 hover:text-red-500 transition-all duration-100 ease-linear">Read More</a> -->
+                        </div>
+                    </div>
+    
+            
                     
     
                 </div>
